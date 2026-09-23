@@ -57,7 +57,7 @@ console.log(!(4 === "4"));
 console.log("\n7. Includes 'on'");
 console.log("dragon".includes("on")); 
 console.log("python".includes("on")); 
-console.log("dragon".includes("on") && "python".includes("on")); // false
+console.log("dragon".includes("on") && "python".includes("on")); // true
 console.log("\n8. Current date and time");
 const now = new Date();
 console.log("Year:", now.getFullYear());
@@ -135,3 +135,4 @@ console.log("\n23. Date formats");
 console.log(`${yyyy}-${mm}-${dd} ${hh}:${min}`);
 console.log(`${dd}-${mm}-${yyyy} ${hh}:${min}`); 
 console.log(`${dd}/${mm}/${yyyy} ${hh}:${min}`); 
+console.log("dragon".includes("on") && "python".includes("on")); // true
